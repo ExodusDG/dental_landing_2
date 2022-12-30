@@ -10451,6 +10451,7 @@ screen and (max-height: 300px) {
 
 .headerRightMenu {
     width: 100%;
+    padding-bottom: 20px;
 }
 
 .headerAdress {
