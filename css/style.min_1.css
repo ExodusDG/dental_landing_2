@@ -10360,7 +10360,7 @@ screen and (max-height: 300px) {
 }
 
 #header-logo {
-    width: 300px;
+    width: 280px;
 }
 
 .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated>.elementor-widget-wrap {
@@ -10391,11 +10391,21 @@ screen and (max-height: 300px) {
     fill: #141942;
     font-size: 18px;
 }
+@font-face {
+    font-family: 'zurich-bold';
+    src: url('../fonts/ZURCHB.TTF') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
 
 .headerRightMenu button {
-    font-family: "Work Sans", Sans-serif;
+    font-family: 'Domine', serif;
     font-size: 14px;
-    font-weight: 500;
     letter-spacing: 0.3px;
     border-style: solid;
     border-width: 3px 3px 3px 3px;
@@ -10405,11 +10415,13 @@ screen and (max-height: 300px) {
     color: #ffffff;
     font-weight: 700;
     font-size: 18px;
+    border-radius: 5px;
 }
 
 .headerRightMenu span {
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Domine', serif;
 }
 
 .elementor-13 .elementor-element.elementor-element-56ee403 {
