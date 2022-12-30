@@ -445,7 +445,6 @@ form.oceanwp-searchform button {
         margin-left: 0;
         clear: both
     }
-
     body .oceanwp-row .span_1_of_4.col:not(.product),
     body .oceanwp-isotope-grid .span_1_of_4.col {
         width: 50%
@@ -461,7 +460,9 @@ form.oceanwp-searchform button {
     }
 }
 
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -963,12 +964,10 @@ body.separate-blog.separate-layout .blog-entry.grid-entry .thumbnail {
         left: auto !important;
         border-width: 0 !important
     }
-
     .content-both-sidebars:not(.separate-layout) .content-area {
         padding: 0 !important;
         margin-bottom: 40px
     }
-
     .content-both-sidebars .widget-area.sidebar-primary,
     .content-both-sidebars .widget-area.sidebar-secondary {
         float: left;
@@ -976,29 +975,23 @@ body.separate-blog.separate-layout .blog-entry.grid-entry .thumbnail {
         left: auto !important;
         padding: 0 !important
     }
-
     .content-both-sidebars .widget-area.sidebar-primary {
         float: right
     }
-
     .content-both-sidebars:not(.separate-layout) .widget-area.sidebar-primary,
     .content-both-sidebars:not(.separate-layout) .widget-area.sidebar-secondary {
         width: 48% !important
     }
-
     .separate-layout.content-both-sidebars .content-area {
         margin-bottom: 20px
     }
-
     .separate-layout.content-both-sidebars .widget-area.sidebar-primary,
     .separate-layout.content-both-sidebars .widget-area.sidebar-secondary {
         width: 49% !important
     }
-
     .separate-layout.content-both-sidebars .widget-area.sidebar-secondary {
         margin-bottom: 20px
     }
-
     .separate-layout.content-both-sidebars .widget-area.sidebar-primary {
         padding-left: 0
     }
@@ -1011,12 +1004,10 @@ body.separate-blog.separate-layout .blog-entry.grid-entry .thumbnail {
         left: auto !important;
         border-width: 0 !important
     }
-
     .content-both-sidebars:not(.separate-layout) .content-area {
         padding: 0 !important;
         margin-bottom: 40px
     }
-
     .content-both-sidebars .widget-area.sidebar-primary,
     .content-both-sidebars .widget-area.sidebar-secondary {
         float: left;
@@ -1024,29 +1015,23 @@ body.separate-blog.separate-layout .blog-entry.grid-entry .thumbnail {
         left: auto !important;
         padding: 0 !important
     }
-
     .content-both-sidebars .widget-area.sidebar-primary {
         float: right
     }
-
     .content-both-sidebars:not(.separate-layout) .widget-area.sidebar-primary,
     .content-both-sidebars:not(.separate-layout) .widget-area.sidebar-secondary {
         width: 48% !important
     }
-
     .separate-layout.content-both-sidebars .content-area {
         margin-bottom: 20px
     }
-
     .separate-layout.content-both-sidebars .widget-area.sidebar-primary,
     .separate-layout.content-both-sidebars .widget-area.sidebar-secondary {
         width: 49% !important
     }
-
     .separate-layout.content-both-sidebars .widget-area.sidebar-secondary {
         margin-bottom: 20px
     }
-
     .separate-layout.content-both-sidebars .widget-area.sidebar-primary {
         padding-left: 0
     }
@@ -1056,16 +1041,13 @@ body.separate-blog.separate-layout .blog-entry.grid-entry .thumbnail {
     .boxed-layout #wrap {
         overflow: hidden
     }
-
     .boxed-layout .site-breadcrumbs {
         right: auto
     }
-
     .container,
     body.content-full-screen .elementor-section-wrap>.elementor-section.elementor-section-boxed>.elementor-container {
         max-width: 90%
     }
-
     .content-area,
     .content-left-sidebar .content-area {
         float: none !important;
@@ -1073,21 +1055,17 @@ body.separate-blog.separate-layout .blog-entry.grid-entry .thumbnail {
         margin-bottom: 40px;
         border: 0
     }
-
     body.sidebar-content .content-area {
         margin-bottom: 0
     }
-
     body:not(.separate-layout) .content-area,
     .content-left-sidebar:not(.separate-layout) .content-area {
         padding: 0 !important
     }
-
     .no-margins .content-area,
     .no-margins.content-left-sidebar .content-area {
         margin-bottom: 0
     }
-
     .widget-area.sidebar-primary,
     .widget-area.sidebar-secondary,
     .content-left-sidebar .widget-area {
@@ -1096,57 +1074,46 @@ body.separate-blog.separate-layout .blog-entry.grid-entry .thumbnail {
         padding: 0 !important;
         border: 0
     }
-
     body.has-composer.has-sidebar #primary {
         margin-bottom: 40px
     }
-
     #main #content-wrap.container {
         width: auto !important
     }
-
     .content-both-sidebars .widget-area.sidebar-primary,
     .content-both-sidebars .widget-area.sidebar-secondary {
         float: none !important;
         width: 100% !important
     }
-
     .content-both-sidebars:not(.separate-layout) .widget-area.sidebar-primary,
     .content-both-sidebars:not(.separate-layout) .widget-area.sidebar-secondary {
         width: 100% !important
     }
-
     .separate-layout.content-both-sidebars .widget-area.sidebar-primary,
     .separate-layout.content-both-sidebars .widget-area.sidebar-secondary {
         width: 100% !important
     }
-
     .separate-layout .container,
     .separate-layout.content-full-screen .elementor-section-wrap>.elementor-section.elementor-section-boxed>.elementor-container {
         max-width: 95%
     }
-
     .separate-layout .content-area,
     .separate-layout.content-left-sidebar .content-area {
         margin-bottom: 20px
     }
-
     .separate-layout .widget-area {
         padding-left: 0 !important;
         padding-right: 0 !important
     }
-
     body.separate-blog.separate-layout .oceanwp-row {
         margin: 0 !important
     }
-
     body.separate-blog.separate-layout #blog-entries.blog-grid>* {
         padding: 0 !important
     }
 }
 
 @media only screen and (min-width: 768px)and (max-width: 959px) {
-
     body.boxed-layout #wrap,
     body.boxed-layout .parallax-footer {
         width: auto !important
@@ -1157,19 +1124,15 @@ body.separate-blog.separate-layout .blog-entry.grid-entry .thumbnail {
     #wrap {
         width: 100% !important
     }
-
     body.boxed-layout #wrap {
         width: auto !important
     }
-
     .boxed-layout #top-bar-social.top-bar-right {
         right: auto
     }
-
     .boxed-layout #top-bar-social.top-bar-left {
         left: auto
     }
-
     .col:not(.swiper-slide),
     .blog-entry {
         width: 100% !important;
@@ -1290,7 +1253,6 @@ body.page.content-max-width .entry .alignfull {
         width: 111% !important;
         max-width: 111% !important
     }
-
     .page .entry .alignfull {
         margin-left: -5.5% !important;
         width: 111% !important;
@@ -1438,19 +1400,15 @@ dl:after,
     .gallery-item {
         max-width: 25%
     }
-
     .gallery-columns-1 .gallery-item {
         max-width: 100%
     }
-
     .gallery-columns-2 .gallery-item {
         max-width: 50%
     }
-
     .gallery-columns-3 .gallery-item {
         max-width: 33.33%
     }
-
     .gallery-columns-4 .gallery-item {
         max-width: 25%
     }
@@ -1460,19 +1418,15 @@ dl:after,
     .gallery-columns-5 .gallery-item {
         max-width: 20%
     }
-
     .gallery-columns-6 .gallery-item {
         max-width: 16.66%
     }
-
     .gallery-columns-7 .gallery-item {
         max-width: 14.28%
     }
-
     .gallery-columns-8 .gallery-item {
         max-width: 12.5%
     }
-
     .gallery-columns-9 .gallery-item {
         max-width: 11.11%
     }
@@ -1771,56 +1725,45 @@ hr.whiteborder {
         box-shadow: none !important;
         text-shadow: none !important
     }
-
     a,
     a:visited {
         text-decoration: underline
     }
-
     a[href]:after {
         content: " (" attr(href) ")"
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")"
     }
-
     .ir a:after,
     a[href^="javascript:"]:after,
     a[href^="#"]:after {
         content: ""
     }
-
     pre,
     blockquote {
         border: 1px solid #999;
         page-break-inside: avoid
     }
-
     thead {
         display: table-header-group
     }
-
     tr,
     img {
         page-break-inside: avoid
     }
-
     img {
         max-width: 100% !important
     }
-
     @page {
         margin: .5cm
     }
-
     p,
     h2,
     h3 {
         orphans: 3;
         widows: 3
     }
-
     h2,
     h3 {
         page-break-after: avoid
@@ -2208,11 +2151,9 @@ a.pure-button-selected {
     #top-bar {
         padding: 20px 0
     }
-
     #top-bar>div:nth-child(2) {
         padding-top: 20px
     }
-
     .top-bar-right {
         float: none;
         text-align: center
@@ -2274,17 +2215,14 @@ a.pure-button-selected {
 }
 
 @media only screen and (max-width: 767px) {
-
     #top-bar-content,
     #top-bar-social-alt {
         float: none;
         text-align: center
     }
-
     #top-bar #lang_sel {
         text-align: left
     }
-
     body.rtl #top-bar #lang_sel {
         text-align: right
     }
@@ -2328,7 +2266,6 @@ a.pure-button-selected {
         float: none;
         display: inline-block
     }
-
     #top-bar-nav {
         float: none;
         text-align: center
@@ -2472,7 +2409,6 @@ a.pure-button-selected {
     #top-bar-social {
         text-align: center
     }
-
     #top-bar-social.top-bar-left,
     #top-bar-social.top-bar-right {
         position: inherit;
@@ -2483,7 +2419,6 @@ a.pure-button-selected {
         line-height: 1.5em;
         margin-top: 0
     }
-
     #top-bar-social li {
         float: none;
         display: inline-block
@@ -2857,7 +2792,6 @@ a.pure-button-selected {
 }
 
 @media only screen and (max-width: 959px) {
-
     .top-header-style .sidr-class-social-menu-inner,
     .top-header-style .sidr-class-mobile-searchform {
         display: none
@@ -2868,7 +2802,6 @@ a.pure-button-selected {
     #site-header.top-header .right {
         display: none
     }
-
     #site-header.top-header.header-replace .left.hide,
     #site-header.top-header.header-replace .right.hide {
         visibility: visible;
@@ -2876,35 +2809,29 @@ a.pure-button-selected {
         -webkit-opacity: 1;
         opacity: 1
     }
-
     #site-header.top-header .header-top .left,
     #site-header.top-header .header-top .right {
         float: none !important;
         text-align: center
     }
-
     #site-header.top-header .oceanwp-mobile-menu-icon {
         float: none;
         left: auto !important;
         right: auto !important
     }
-
     #site-header.top-header .oceanwp-mobile-menu-icon a {
         float: none
     }
-
     #site-header.top-header .header-top .right .inner {
         display: block;
         padding-bottom: 10px
     }
-
     #site-header.top-header .oceanwp-social-menu,
     #site-header.top-header #search-toggle {
         float: none;
         display: inline-block;
         height: auto
     }
-
     .top-header-style .sidr-class-social-menu-inner,
     .top-header-style .sidr-class-mobile-searchform {
         display: block
@@ -3268,11 +3195,9 @@ a.pure-button-selected {
     0% {
         -webkit-opacity: 1
     }
-
     50% {
         -webkit-opacity: 0
     }
-
     100% {
         -webkit-opacity: 1
     }
@@ -3282,11 +3207,9 @@ a.pure-button-selected {
     0% {
         -moz-opacity: 1
     }
-
     50% {
         -moz-opacity: 0
     }
-
     100% {
         -moz-opacity: 1
     }
@@ -3296,11 +3219,9 @@ a.pure-button-selected {
     0% {
         -o-opacity: 1
     }
-
     50% {
         -o-opacity: 0
     }
-
     100% {
         -o-opacity: 1
     }
@@ -3310,11 +3231,9 @@ a.pure-button-selected {
     0% {
         opacity: 1
     }
-
     50% {
         opacity: 0
     }
-
     100% {
         opacity: 1
     }
@@ -3324,7 +3243,6 @@ a.pure-button-selected {
     #site-header.full_screen-header #site-logo.has-full-screen-logo.opened .custom-logo-link {
         display: block
     }
-
     #site-header.full_screen-header #site-logo.has-full-screen-logo.opened .full-screen-logo-link {
         display: none
     }
@@ -3697,7 +3615,6 @@ a.pure-button-selected {
 }
 
 @media only screen and (max-width: 959px) {
-
     .medium-header-style .sidr-class-social-menu-inner,
     .medium-header-style .sidr-class-mobile-searchform {
         display: none
@@ -3708,16 +3625,13 @@ a.pure-button-selected {
     #site-header.medium-header .top-header-inner {
         display: block
     }
-
     #site-header.medium-header .top-col:not(.logo-col) {
         display: none
     }
-
     #site-header.medium-header .top-col.logo-col {
         display: inline-block;
         text-align: center
     }
-
     .medium-header-style .sidr-class-social-menu-inner,
     .medium-header-style .sidr-class-mobile-searchform {
         display: block
@@ -3728,7 +3642,6 @@ a.pure-button-selected {
     #site-header.medium-header .header-top-wrap {
         padding: 20px 0
     }
-
     #site-header.medium-header .oceanwp-mobile-menu-icon a {
         line-height: 40px
     }
@@ -4093,35 +4006,27 @@ body.vertical-header-style.vh-closed #site-header.vertical-header #site-navigati
     body.vertical-header-style.default-collapse.left-header #site-header.vertical-header {
         left: -266px
     }
-
     body.vertical-header-style.default-collapse.left-header #outer-wrap {
         margin-left: 34px
     }
-
     body.vertical-header-style.default-collapse.right-header #site-header.vertical-header {
         right: -266px
     }
-
     body.vertical-header-style.default-collapse.right-header #outer-wrap {
         margin-right: 34px
     }
-
     body.vertical-header-style.default-collapse.vh-opened.left-header #site-header.vertical-header {
         left: 0
     }
-
     body.vertical-header-style.default-collapse.vh-opened.right-header #site-header.vertical-header {
         right: 0
     }
-
     body.vertical-header-style.default-collapse.vh-opened #site-header.vertical-header #site-navigation-wrap {
         padding-right: 0
     }
-
     body.default-collapse #site-header.vertical-header .vertical-toggle {
         display: block
     }
-
     body.default-collapse #site-header.vertical-header #site-navigation-wrap {
         padding-right: 34px
     }
@@ -5788,23 +5693,18 @@ body.vertical-header-style.vh-closed #site-header.vertical-header #site-navigati
     .navigation li.megamenu-li.auto-mega .megamenu.col-1 {
         width: 320px
     }
-
     .navigation li.megamenu-li.auto-mega .megamenu.col-2 {
         width: 440px
     }
-
     .navigation li.megamenu-li.auto-mega .megamenu.col-3 {
         width: 660px
     }
-
     .navigation li.megamenu-li.auto-mega .megamenu.col-4 {
         width: 780px
     }
-
     .navigation li.megamenu-li.auto-mega .megamenu.col-5 {
         width: 980px
     }
-
     .navigation li.megamenu-li.auto-mega .megamenu.col-6 {
         width: 1080px
     }
@@ -6733,11 +6633,9 @@ body.vertical-header-style.vh-closed #site-header.vertical-header #site-navigati
     0% {
         -webkit-opacity: 1
     }
-
     50% {
         -webkit-opacity: 0
     }
-
     100% {
         -webkit-opacity: 1
     }
@@ -6747,11 +6645,9 @@ body.vertical-header-style.vh-closed #site-header.vertical-header #site-navigati
     0% {
         -moz-opacity: 1
     }
-
     50% {
         -moz-opacity: 0
     }
-
     100% {
         -moz-opacity: 1
     }
@@ -6761,11 +6657,9 @@ body.vertical-header-style.vh-closed #site-header.vertical-header #site-navigati
     0% {
         -o-opacity: 1
     }
-
     50% {
         -o-opacity: 0
     }
-
     100% {
         -o-opacity: 1
     }
@@ -6775,11 +6669,9 @@ body.vertical-header-style.vh-closed #site-header.vertical-header #site-navigati
     0% {
         opacity: 1
     }
-
     50% {
         opacity: 0
     }
-
     100% {
         opacity: 1
     }
@@ -7029,27 +6921,22 @@ body.breadcrumbs-position-default .page-header-title {
     .page-header {
         background-attachment: initial !important
     }
-
     .page-header-with-background .page-header-title {
         font-size: 36px
     }
-
     .centered-page-header .page-header-title,
     .centered-minimal-page-header .page-header-title,
     .page-header.background-image-page-header .page-header-title {
         font-size: 24px
     }
-
     .centered-page-header .page-subheading,
     .centered-minimal-page-header .page-header-subheading,
     .page-header.background-image-page-header .page-subheading {
         font-size: 14px
     }
-
     .background-image-page-header {
         height: auto !important
     }
-
     body.has-breadcrumbs .page-header-title {
         max-width: 100%;
         width: 100%
@@ -7380,12 +7267,10 @@ body.breadcrumbs-position-default .page-header-title {
         -webkit-flex-direction: column;
         flex-direction: column
     }
-
     .blog-entry.thumbnail-entry .thumbnail,
     .blog-entry.thumbnail-entry .blog-entry-content {
         width: 100%
     }
-
     .blog-entry.thumbnail-entry .blog-entry-content {
         margin-top: 15px;
         padding: 0 !important
@@ -7880,7 +7765,6 @@ ul.obem-none li:after {
     .single-post.media-above-content .thumbnail {
         margin-bottom: 20px
     }
-
     .single-post .entry-title {
         font-size: 26px
     }
@@ -7985,14 +7869,12 @@ ul.obem-none li:after {
 }
 
 @media only screen and (max-width: 480px) {
-
     .single nav.post-navigation .nav-links .nav-previous,
     .single nav.post-navigation .nav-links .nav-next {
         float: none;
         width: 100%;
         padding: 0
     }
-
     .single nav.post-navigation .nav-links .nav-previous {
         border-right-width: 0;
         border-left-width: 0
@@ -8144,7 +8026,6 @@ time.published svg.owp-icon {
         width: 100%;
         margin-bottom: 30px
     }
-
     #related-posts .col:last-child {
         margin-bottom: 0
     }
@@ -8407,7 +8288,6 @@ ul.page-numbers li .owp-icon {
     from {
         transform: scale(0.001)
     }
-
     to {
         transform: scale(1)
     }
@@ -8629,7 +8509,6 @@ span.required {
         margin-left: 0;
         margin-right: 0
     }
-
     #respond .comment-form-author,
     #respond .comment-form-email,
     #respond .comment-form-url {
@@ -8645,11 +8524,9 @@ span.required {
     .comment-body img {
         display: none
     }
-
     .comment-author {
         margin-bottom: 16px
     }
-
     .comment-author .comment-link,
     .comment-author .comment-meta {
         float: none
@@ -8821,11 +8698,9 @@ span.required {
     #footer-widgets .col {
         margin-bottom: 30px
     }
-
     .has-parallax-footer #main {
         margin-bottom: 0 !important
     }
-
     .parallax-footer {
         position: relative
     }
@@ -8835,28 +8710,22 @@ span.required {
     #footer-widgets.tablet-1-col .footer-box {
         width: 100%
     }
-
     #footer-widgets.tablet-2-col .footer-box {
         width: 50% !important
     }
-
     #footer-widgets.tablet-2-col .footer-box:nth-child(3n) {
         clear: left
     }
-
     #footer-widgets.tablet-3-col .footer-box {
         width: 33.33% !important;
         clear: none
     }
-
     #footer-widgets.tablet-3-col .footer-box:nth-child(4n) {
         clear: left
     }
-
     #footer-widgets.tablet-4-col .footer-box {
         width: 25% !important
     }
-
     #footer-widgets.tablet-4-col .footer-box:nth-child(5n) {
         clear: left
     }
@@ -8866,28 +8735,22 @@ span.required {
     #footer-widgets.mobile-1-col .footer-box {
         width: 100%
     }
-
     #footer-widgets.mobile-2-col .footer-box {
         width: 50% !important
     }
-
     #footer-widgets.mobile-2-col .footer-box:nth-child(3n) {
         clear: left
     }
-
     #footer-widgets.mobile-3-col .footer-box {
         width: 33.33% !important;
         clear: none
     }
-
     #footer-widgets.mobile-3-col .footer-box:nth-child(4n) {
         clear: left
     }
-
     #footer-widgets.mobile-4-col .footer-box {
         width: 25% !important
     }
-
     #footer-widgets.mobile-4-col .footer-box:nth-child(5n) {
         clear: left
     }
@@ -8966,7 +8829,6 @@ span.required {
 }
 
 @media only screen and (max-width: 959px) {
-
     #footer-bottom #copyright,
     #footer-bottom #footer-bottom-menu {
         float: none;
@@ -8975,11 +8837,9 @@ span.required {
         padding-left: 0;
         text-align: center
     }
-
     #footer-bottom #footer-bottom-menu {
         margin-bottom: 15px
     }
-
     #footer-bottom #footer-bottom-menu li {
         float: none;
         display: inline-block
@@ -9085,7 +8945,6 @@ span.required {
     .error404-content .searchform {
         width: 100%
     }
-
     .error404-content .error-btn {
         margin-top: 40px
     }
@@ -9469,7 +9328,6 @@ a.sidr-class-toggle-sidr-close .owp-icon {
 }
 
 @media screen and (max-width: 782px) {
-
     .admin-bar #sidr,
     .admin-bar .oceanwp-sidr-overlay {
         top: 46px;
@@ -9578,9 +9436,11 @@ a.sidr-class-toggle-sidr-close .owp-icon {
     }
 }
 
+
 /*! Flickity v2.2.2
 https://flickity.metafizzy.co
 ---------------------------------------------- */
+
 .flickity-enabled {
     position: relative
 }
@@ -10090,21 +9950,17 @@ screen and (max-height: 300px) {
         padding-left: 0;
         padding-right: 0
     }
-
     .mfp-img-mobile img.mfp-img {
         padding: 0
     }
-
     .mfp-img-mobile .mfp-figure:after {
         top: 0;
         bottom: 0
     }
-
     .mfp-img-mobile .mfp-figure small {
         display: inline;
         margin-left: 5px
     }
-
     .mfp-img-mobile .mfp-bottom-bar {
         background: rgba(0, 0, 0, .6);
         bottom: 0;
@@ -10114,16 +9970,13 @@ screen and (max-height: 300px) {
         position: fixed;
         box-sizing: border-box
     }
-
     .mfp-img-mobile .mfp-bottom-bar:empty {
         padding: 0
     }
-
     .mfp-img-mobile .mfp-counter {
         right: 5px;
         top: 3px
     }
-
     .mfp-img-mobile .mfp-close {
         top: 0;
         right: 0;
@@ -10142,17 +9995,14 @@ screen and (max-height: 300px) {
         -webkit-transform: scale(0.75);
         transform: scale(0.75)
     }
-
     .mfp-arrow-left {
         -webkit-transform-origin: 0;
         transform-origin: 0
     }
-
     .mfp-arrow-right {
         -webkit-transform-origin: 100%;
         transform-origin: 100%
     }
-
     .mfp-container {
         padding-left: 6px;
         padding-right: 6px
@@ -10216,30 +10066,24 @@ screen and (max-height: 300px) {
     body.default-breakpoint #site-logo.has-responsive-logo .custom-logo-link {
         display: none
     }
-
     body.default-breakpoint #site-logo.has-responsive-logo .responsive-logo-link {
         display: block
     }
-
     body.default-breakpoint .is-sticky #site-logo.has-responsive-logo .sticky-logo-link {
         display: block
     }
-
     body.default-breakpoint .is-sticky #site-logo.has-sticky-logo .responsive-logo-link {
         display: none
     }
-
     body.default-breakpoint #site-header.center-header #site-logo {
         display: block
     }
-
     body.default-breakpoint #top-bar-nav,
     body.default-breakpoint #site-navigation-wrap,
     body.default-breakpoint .oceanwp-social-menu,
     body.default-breakpoint .after-header-content {
         display: none
     }
-
     body.default-breakpoint .center-logo #site-logo {
         float: none;
         position: absolute;
@@ -10248,15 +10092,12 @@ screen and (max-height: 300px) {
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%)
     }
-
     body.default-breakpoint .oceanwp-mobile-menu-icon {
         display: inline-flex
     }
-
     body.default-breakpoint #top-bar.has-no-content #top-bar-social {
         text-align: center
     }
-
     body.default-breakpoint #top-bar.has-no-content #top-bar-social.top-bar-left,
     body.default-breakpoint #top-bar.has-no-content #top-bar-social.top-bar-right {
         position: inherit;
@@ -10267,27 +10108,22 @@ screen and (max-height: 300px) {
         line-height: 1.5em;
         margin-top: 0
     }
-
     body.default-breakpoint #top-bar.has-no-content #top-bar-social li {
         float: none;
         display: inline-block
     }
-
     body.default-breakpoint.vertical-header-style #outer-wrap {
         margin: 0 !important
     }
-
     body.default-breakpoint #site-header.vertical-header {
         position: relative;
         width: 100%;
         left: 0 !important;
         right: 0 !important
     }
-
     body.default-breakpoint #site-header.vertical-header .has-template>#site-logo {
         display: block
     }
-
     body.default-breakpoint #site-header.vertical-header #site-header-inner {
         display: -webkit-box;
         display: -webkit-flex;
@@ -10298,40 +10134,32 @@ screen and (max-height: 300px) {
         padding: 0;
         max-width: 90%
     }
-
     body.default-breakpoint #site-header.vertical-header #site-header-inner>*:not(.oceanwp-mobile-menu-icon) {
         display: none
     }
-
     body.default-breakpoint #site-header.vertical-header #site-header-inner>* {
         padding: 0 !important
     }
-
     body.default-breakpoint #site-header.vertical-header #site-header-inner #site-logo {
         display: block;
         margin: 0;
         width: 50%;
         text-align: left
     }
-
     body.default-breakpoint #site-header.vertical-header #site-header-inner .oceanwp-mobile-menu-icon {
         width: 50%;
         text-align: right
     }
-
     body.default-breakpoint #site-header.vertical-header .vertical-toggle {
         display: none
     }
-
     body.default-breakpoint .is-sticky #site-header.vertical-header {
         position: fixed;
         height: auto
     }
-
     body.default-breakpoint.vh-closed .vertical-toggle {
         display: none
     }
-
     body.default-breakpoint .owp-cart-overlay {
         display: none !important
     }
@@ -10374,7 +10202,6 @@ screen and (max-height: 300px) {
     align-items: center;
 }
 
-
 .elementorMenu {
     justify-content: space-between;
 }
@@ -10391,6 +10218,7 @@ screen and (max-height: 300px) {
     fill: #141942;
     font-size: 18px;
 }
+
 @font-face {
     font-family: 'zurich-bold';
     src: url('../fonts/ZURCHB.TTF') format('truetype');
@@ -10401,7 +10229,6 @@ screen and (max-height: 300px) {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
-
 
 .headerRightMenu button {
     font-family: 'Domine', serif;
@@ -10425,7 +10252,6 @@ screen and (max-height: 300px) {
 }
 
 .elementor-13 .elementor-element.elementor-element-56ee403 {
-   
     margin-bottom: 0px;
 }
 
@@ -10457,4 +10283,18 @@ screen and (max-height: 300px) {
 .headerAdress {
     right: 20px;
     position: relative;
+}
+
+.elementor-160 .elementor-element.elementor-element-d14e747 {
+    width: 35.312%;
+}
+
+.mabel-bhi-businesshours td {
+    color: white;
+}
+
+#footer-widgets {
+    background-color: rgb(34, 34, 34);
+    padding: 0px 0px;
+    margin: 0px;
 }
