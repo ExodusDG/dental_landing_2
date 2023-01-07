@@ -1,0 +1,393 @@
+/* font-family: 'Domine', serif;
+font-family: 'Work Sans', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    color: #141942;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+button,
+input,
+textarea {
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* MENU */
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-logo {
+    width: 300px;
+}
+
+nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.navTextAdress {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.navButton {
+    font-family: 'Domine', serif;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    padding: 15px 25px;
+    background-color: #141942;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: grid;
+}
+
+.navButton span {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Domine', serif;
+    margin-top: 10px;
+}
+
+.blueLine {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 15px 15px 15px 15px;
+    background-color: #141942;
+    border-style: solid;
+    border-color: #833B96;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.blueLine p {
+    color: #ffffff;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 2px;
+}
+
+.poster {
+    width: 100%;
+}
+
+.textBlock p {
+    margin-bottom: 20px;
+    text-align: left;
+    color: #141942;
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: 0.2px;
+}
+
+
+.textBlock p:first-child {
+    font-weight: 600;
+}
+
+.textBlock {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.textBlock ul p {
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+
+.form {
+    padding-top: 85px;
+    padding-bottom: 85px;
+    background: #141942;
+}
+
+.form h1 {
+    color: #ffffff;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    letter-spacing: 0.2px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.formContainer {
+    width: 1470px;
+    margin: 0 auto;
+}
+
+.formContainer input {
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    border: 2px solid #833B96;
+    padding-left: 20px;
+
+}
+
+.formContainer label {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.formContainer label span {
+    color: red;
+}
+
+.formButton {
+    margin-top: 20px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    background-color: #141942;
+    color: #ffffff;
+    border: 2px solid #833B96;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.formButton:hover {
+    background: #833B96;
+    color: white;
+}
+
+.reviewsBlock h1 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.reviewsBlock {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.swiper {
+    width: 1020px;
+    margin-top: 50px;
+    height: 150px;
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+.swiper-slide p {
+    font-size: 16px;
+    line-height: 1.3;
+    font-style: italic;
+    color: #833b96;
+}
+
+.swiper-pagination-bullet-active {
+    background: #141942 !important;
+}
+
+.textBlock li {
+    list-style-type: disc;
+    position: relative;
+    left: 20px;
+}
+
+.swiperAuthor {
+    margin-top: 10px;
+    font-weight: 700;
+    color: #833b96;
+}
+
+.footerContainer {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background: #141942;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.times {
+    width: 330px;
+
+}
+
+.times>div {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+
+.times p {
+    color: white;
+    font-size: 14px;
+}
+
+.media {
+    display: flex;
+}
+
+.mediaLink {
+    margin-right: 15px;
+    border: 2px solid #833b96;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 8px;
+    transition: 0.3s;
+}
+
+.mediaLink i {
+    color: white;
+    font-size: 20px;
+
+}
+
+.mediaLink:hover {
+    background: #833B96;
+    scale: 1.2;
+}
+
+.footerPhone {
+    font-size: 18px;
+}
+
+.footerLinks li {
+    margin-bottom: 10px;
+}
+
+.bottomText {
+    margin-top: 50px;
+    color: white;
+}
+
+@media (max-width: 1500px) {
+    .formContainer {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1140px) {
+    nav ul {
+        flex-wrap: wrap;
+    }
+
+    nav li {
+        width: 50%;
+    }
+
+    .navTextAdress {
+        text-align: right;
+    }
+
+    .menuButton {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .navButton {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .textBlock {
+        max-width: 90%;
+    }
+
+    .swiper {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .footerContainer {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .footerContainer>div {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .media {
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 490px) {
+    nav li {
+        width: 100%;
+    }
+    nav ul {
+        text-align: center;
+    }
+    .navTextAdress {
+        text-align: center;
+    }
+    .blueLine p {
+        font-size: 20px;
+    }
+    .swiper {
+        height: 200px;
+    }
+
+    .footerContainer > div {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footerPhone {margin-bottom: 30px;}
+}
