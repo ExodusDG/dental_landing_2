@@ -564,3 +564,18 @@ footer {
     text-align: center;
     margin-bottom: 40px;
 }
+
+.timerBlock {
+    text-align: left;
+}
+
+.timerBlock h1 {
+    text-align: left;
+}
+
+.timer {
+    justify-content: flex-start;
+}
+.list p {
+    padding-left: 0%;
+}
