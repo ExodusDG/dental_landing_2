@@ -198,8 +198,15 @@ nav {
 }
 
 .reviewsBlock h1 {
-    text-align: center;
+    color: #141942;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 25px;
     font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    letter-spacing: 0.2px;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 .reviewsBlock {
@@ -480,8 +487,8 @@ footer {
 }
 
 .reviewsBlock h1 {
-    font-family: 'Domine', serif;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 
 .reviewsBlock p {
@@ -497,11 +504,6 @@ footer {
     width: 100px;
     margin-top: 30px;
     margin-bottom: 30px;
-}
-
-.blueLine p {
-    font-family: 'Domine', serif;
-    font-size: 35px;
 }
 
 @media (max-width: 1140px) {
@@ -555,4 +557,10 @@ footer {
         font-weight: 300;
         color: white;
     }
+}
+
+.timerBlock h1 {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 40px;
 }
