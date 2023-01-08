@@ -391,3 +391,168 @@ footer {
     }
     .footerPhone {margin-bottom: 30px;}
 }
+
+.textBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textBlock > div {
+    width: 48%;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.timeBlock {
+    font-family: 'Poppins', sans-serif;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.timeBlockBG {
+    border-radius: 14.9775px;
+    width: 80px;
+    height: 80px;
+    background: #141942;
+    text-align: center;
+    font-size: 46px;
+    line-height: 80px;
+    font-weight: 300;
+    color: white;
+}
+
+.timeBlock>p {
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.timer img {
+    width: 7px;
+}
+
+.textBlock {
+    max-width: 1240px;
+}
+
+.list p {
+    font-weight: 700;
+    display: flex;align-items: center;
+    padding-left: 10%;
+}
+
+.list i {
+    margin-right: 10px;
+}
+
+.list {
+    text-align: center;
+}
+
+.timerBlock {
+    width: 40% !important;
+}
+
+.textBlock {
+    align-items: center;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.images img {
+    width: 100%;
+   
+}
+
+.reviewsBlock {
+    max-width: 1040px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reviewsBlock h1 {
+    font-family: 'Domine', serif;
+    margin-bottom: 10px;
+}
+
+.reviewsBlock p {
+    line-height: 1.6;
+}
+
+.author {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.google {
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.blueLine p {
+    font-family: 'Domine', serif;
+    font-size: 35px;
+}
+
+@media (max-width: 1140px) {
+    .textBlock {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .reviewsBlock {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .blueLine p {
+        font-size: 19px;
+    }
+    .textBlock {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+    .textBlock > div {
+        width: 100%;
+    }
+    .timerBlock {
+        width: 100% !important;
+        margin-bottom: 40px;
+    }
+    .list p {
+        padding-left: 0%;
+    }
+}
+
+@media (max-width: 490px) {
+    .blueLine p {
+        font-size: 19px;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 391px) {
+    .timeBlockBG {
+        width: 70px;
+        height: 70px;
+        background: #141942;
+        text-align: center;
+        font-size: 36px;
+        line-height: 70px;
+        font-weight: 300;
+        color: white;
+    }
+}
